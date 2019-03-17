@@ -1,0 +1,101 @@
+/*===================================================
+*Base style that apply to generic element selector
+*=====================================================*/
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+h1 {
+    font-size: 1.8em;
+    line-height: 1em;
+}
+h2 {
+    font-size: 1.4em;
+    line-height: 1em;
+}
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+
+}
+em {
+    font-weight: bold;
+}
+small {
+    font-size: 0.8em;
+}
+
+/*===================================================
+* Style classes starting with "l=" refer to "layout" components
+*(grouping concept that affect layout, width and margins
+*=====================================================*/
+.l-pad {
+    padding: 1em;
+}
+.l-sidebar {
+    width: 250px;
+}
+
+
+
+/*===================================================
+*Modular and reuseable styles
+*=====================================================*/
+.cf {
+    overflow: hidden;
+}
+.standout {
+    background-color: #eee;
+}
+.logo {
+    font-family: "stoke", serif;
+}
+.logo h1 {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+.logo-sub {
+    color: #333;
+    font-size: 0.6em;
+    font-weight: 100;
+}
+.topbar {
+    background-color: #fff;
+}
+.topbar-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #1aa1e1;
+    float: left;
+}
+.topbar-title > i {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    
+}
+.book {
+    display: inline-block;
+    margin-left: 5px;
+}
+.categories {
+    position: absolute;
+    z-index: 100;
+    font-size: 1.2em;
+    line-height: 2 em;
+    padding: 0.5em 0;
+}
+.categories a {
+    color: #444;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.categories a:hover {
+    background-color: #e5e5e5;
+}
